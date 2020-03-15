@@ -9,14 +9,24 @@
 import SwiftUI
 
 struct ContentView: View {
+    
   var body: some View {
     VStack {
       Text("Udderly Fabulous")
+        .font(.system(size: 30))
+        .fontWeight(.bold)
       Text("Milk Delivery")
       Text(".. in a flash")
+      Button(action: {
+        print("pressed")
+      }) {
+        Text("Start")
+      }
     }
   }
 }
+
+
 
 struct ContentView_Previews: PreviewProvider {
   static var previews: some View {
