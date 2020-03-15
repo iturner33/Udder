@@ -12,21 +12,22 @@ struct ContentView: View {
     
   var body: some View {
     VStack {
+      Spacer()
       Text("Udderly Fabulous")
         .font(.system(size: 30))
         .fontWeight(.bold)
       Text("Milk Delivery")
       Text(".. in a flash")
+      Spacer()
       Button(action: {
         print("pressed")
       }) {
         Text("Start")
       }
+      Spacer()
     }
   }
 }
-
-
 
 struct ContentView_Previews: PreviewProvider {
   static var previews: some View {
