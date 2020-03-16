@@ -19,11 +19,14 @@ struct ContentView: View {
       Text("Milk Delivery")
       Text(".. in a flash")
       Spacer()
-      Button(action: {
-        print("pressed")
-      }) {
-        Text("Start")
+      NavigationLink(destination: DetailView()) {
+        Text("Detail View")
       }
+//      Button(action: {
+//        print("pressed")
+//      }) {
+//        Text("Start")
+//      }
       Spacer()
     }
   }

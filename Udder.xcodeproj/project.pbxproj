@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A484D219241FAEC00048E395 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A484D218241FAEC00048E395 /* DetailView.swift */; };
 		A4C7DA9F241E8AEB00D64010 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C7DA9E241E8AEB00D64010 /* AppDelegate.swift */; };
 		A4C7DAA1241E8AEB00D64010 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C7DAA0241E8AEB00D64010 /* SceneDelegate.swift */; };
 		A4C7DAA3241E8AEB00D64010 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C7DAA2241E8AEB00D64010 /* ContentView.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A484D218241FAEC00048E395 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		A4C7DA9B241E8AEB00D64010 /* Udder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Udder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4C7DA9E241E8AEB00D64010 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A4C7DAA0241E8AEB00D64010 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,6 +41,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A484D217241FAEB20048E395 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A4C7DAA2241E8AEB00D64010 /* ContentView.swift */,
+				A484D218241FAEC00048E395 /* DetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		A4C7DA92241E8AEB00D64010 = {
 			isa = PBXGroup;
 			children = (
@@ -58,10 +69,10 @@
 		A4C7DA9D241E8AEB00D64010 /* Udder */ = {
 			isa = PBXGroup;
 			children = (
+				A484D217241FAEB20048E395 /* Views */,
 				A4C7DAB2241E8C4C00D64010 /* Model */,
 				A4C7DA9E241E8AEB00D64010 /* AppDelegate.swift */,
 				A4C7DAA0241E8AEB00D64010 /* SceneDelegate.swift */,
-				A4C7DAA2241E8AEB00D64010 /* ContentView.swift */,
 				A4C7DAA4241E8AEC00D64010 /* Assets.xcassets */,
 				A4C7DAA9241E8AEC00D64010 /* LaunchScreen.storyboard */,
 				A4C7DAAC241E8AEC00D64010 /* Info.plist */,
@@ -160,6 +171,7 @@
 				A4C7DA9F241E8AEB00D64010 /* AppDelegate.swift in Sources */,
 				A4C7DAA1241E8AEB00D64010 /* SceneDelegate.swift in Sources */,
 				A4C7DAB4241E8C6100D64010 /* OrderEngine.swift in Sources */,
+				A484D219241FAEC00048E395 /* DetailView.swift in Sources */,
 				A4C7DAA3241E8AEB00D64010 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
